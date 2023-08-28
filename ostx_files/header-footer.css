@@ -10,14 +10,14 @@
 @media screen and (min-width: 320px) {
   .account-name {
     display: none;
-    white-space:nowrap;
+    white-space: nowrap;
   }
-  .clock{
+  .clock {
     display: none;
   }
-.cart{
-  display: none;
-}
+  .cart {
+    display: none;
+  }
   .logo {
     width: 50%;
     align-items: center;
@@ -27,7 +27,7 @@
     display: block;
     height: 25px;
   }
-  .logo-box{
+  .logo-box {
     height: 50px;
   }
   .cap-account {
@@ -53,7 +53,6 @@
     margin-right: 8px;
     padding-right: 16px;
   }
-
 
   .cap-message {
     min-height: 100px;
@@ -127,7 +126,7 @@
     letter-spacing: 0;
   }
 
-  .burger--button{
+  .burger--button {
     align-items: center;
     background-color: transparent;
     color: #000;
@@ -139,20 +138,18 @@
     align-items: center;
     display: flex;
     height: 50px;
-
   }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .news-link {
-    white-space:nowrap;
+    white-space: nowrap;
     align-items: center;
     color: #484848;
     display: flex;
     height: 50px;
-    font: 300 0.7em/1.0 Georgia, serif;
-   
+    font: 300 0.7em/1 Georgia, serif;
   }
-  .clock{
+  .clock {
     display: block;
   }
   .cap-account {
@@ -160,25 +157,24 @@
     display: flex;
     height: 50px;
     justify-content: flex-end;
-width: 25%;
+    width: 25%;
   }
 }
 @media screen and (min-width: 768px) {
   .news-link {
-    white-space:nowrap;
+    white-space: nowrap;
     align-items: center;
     color: #484848;
     display: flex;
     height: 50px;
     font: 400 0.8em/1.1 Georgia, serif;
-   
   }
   .cap-account {
     align-items: center;
     display: flex;
     height: 50px;
     justify-content: flex-end;
-max-width: 29%;
+    max-width: 29%;
   }
   .logo {
     flex-grow: 1;
@@ -187,12 +183,12 @@ max-width: 29%;
     align-items: center;
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     overflow: hidden;
-    transition: height .3s ease;
+    transition: height 0.3s ease;
   }
-  .cap--small .logo-box{
+  .cap--small .logo-box {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -203,20 +199,19 @@ max-width: 29%;
     display: flex;
     height: 50px;
     /* width: 35%; */
-}
- 
-  
+  }
+
   .search {
     display: flex;
     height: 50px;
   }
-  .logo-box{
+  .logo-box {
     height: 120px;
   }
-  .logo-link{
+  .logo-link {
     height: 50px;
   }
-  .cap--small .logo-link{
+  .cap--small .logo-link {
     display: block;
     height: 30px;
   }
@@ -224,23 +219,22 @@ max-width: 29%;
     display: block;
   }
 
-  .cart{
+  .cart {
     display: none;
   }
-  .cap--small .cart{
+  .cap--small .cart {
     margin-right: 30px;
     display: block;
   }
-  .cap--small .cap-account{
+  .cap--small .cap-account {
     max-width: 35%;
   }
-  .cart--user{
-    
+  .cart--user {
     display: flex;
     justify-content: center;
   }
-  .cart--link{
-    white-space:nowrap;
+  .cart--link {
+    white-space: nowrap;
     text-transform: uppercase;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -256,7 +250,7 @@ max-width: 29%;
     width: auto;
     color: #fff;
   }
-  .cart--title{
+  .cart--title {
     color: white;
     font-family: "Montserrat";
     font-size: 12px;
@@ -273,44 +267,43 @@ max-width: 29%;
     margin-left: 0.43rem;
     width: 0;
   }
-  
 }
 
- 
-  .search-box {
-    display: flex;
-    height: 50px;
-    margin-left: 30px;
-    position: relative;
-  }
-  .search-button {
-    padding: 0px;
-    align-items: center;
-    background-color: transparent;
-    color: #000;
-    cursor: pointer;
-    display: flex;
-    position: relative;
-    z-index: 5;
-  }
-  .account {
-    align-items: center;
-    background-color: transparent;
-    color: #484848;
-    cursor: pointer;
-    display: flex;
-    font: 400 0.8em/1.1 Georgia, serif;
-  }
-  .account--svg {
-    height: 32px;
-    margin-left: 0.43rem;
-    width: 32px;
-  }
+.search-box {
+  display: flex;
+  height: 50px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.search-button {
+  padding: 0px;
+  align-items: center;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  z-index: 5;
+}
+.account {
+  align-items: center;
+  background-color: transparent;
+  color: #484848;
+  cursor: pointer;
+  display: flex;
+  font: 400 0.8em/1.1 Georgia, serif;
+}
+.account--svg {
+  height: 32px;
+  margin-left: 0.43rem;
+  width: 32px;
+}
 
 .cap-message-fixed {
   max-height: 0rem;
   min-height: 0rem;
-  transition: max-height 1s ease-out,min-height 1s ease-out;
+  transition: max-height 1s ease-out, min-height 1s ease-out;
   display: none;
 }
 .cap-message {
@@ -319,22 +312,21 @@ max-width: 29%;
   margin: 0;
   padding: 6.88px;
 }
-.cap--box{
+.cap--box {
   border-bottom: 4px solid #000;
   display: flex;
-    transition: all 1s;
+  transition: all 1s;
 }
-.cap--small{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
-
+.cap--small {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cap--small .cap--box {
-  border-bottom:none;
-    transition: all 1s;
+  border-bottom: none;
+  transition: all 1s;
 }
 
-.cap{
+.cap {
   background-color: #fff;
 }
 .cap-message-box {
@@ -356,8 +348,6 @@ max-width: 29%;
   line-height: 12px;
 }
 
-
-
 .search-title {
   align-items: center;
   display: block;
@@ -372,7 +362,7 @@ max-width: 29%;
   margin-left: 30px;
 }
 
-.news-link>img {
+.news-link > img {
   margin-right: 0.43rem;
 }
 .news-img {
@@ -394,22 +384,22 @@ max-width: 29%;
   .menu-box {
     margin: 0 0 8px;
   }
-.footer--logo{
-  border-top: 4px solid #000;
-  display: flex;
-  justify-content: center;
-  margin: 0 -16px;
-  padding: 12px 16px;
-}
-.footer--link{
-  align-items: center;
-  display: flex;
-  height: 50px;
-}
-.footer--link>img{
-  display: block;
-  height: 25px;
-}
+  .footer--logo {
+    border-top: 4px solid #000;
+    display: flex;
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 12px 16px;
+  }
+  .footer--link {
+    align-items: center;
+    display: flex;
+    height: 50px;
+  }
+  .footer--link > img {
+    display: block;
+    height: 25px;
+  }
   .menu-label {
     border-bottom: 2px solid #dc1a21;
     display: block;
@@ -482,7 +472,6 @@ max-width: 29%;
   .widget__list {
     margin: 0px;
   }
-
 
   .widget__list:nth-child(1) .widget__item,
   .widget__list:nth-child(n + 2) {
@@ -600,25 +589,23 @@ max-width: 29%;
 }
 
 @media screen and (min-width: 800px) {
-
-  .footer--logo{
+  .footer--logo {
     border-top: 4px solid #000;
     padding: 1.7rem 0 2.55rem;
   }
-  .footer--link{
+  .footer--link {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 120px;
     justify-content: center;
     overflow: hidden;
-    transition: height .3s ease;
+    transition: height 0.3s ease;
   }
-  .footer--link>img{
+  .footer--link > img {
     width: auto;
     display: block;
     height: 50px;
-
   }
 
   .menu {
@@ -734,7 +721,6 @@ max-width: 29%;
   .widget__item {
     display: flex;
   }
-
 
   .widget__item:nth-child(n + 2) {
     margin-left: 0.85rem;
